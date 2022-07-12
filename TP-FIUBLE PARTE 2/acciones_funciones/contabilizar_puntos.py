@@ -27,7 +27,7 @@ def contabilizar_puntos(contador_credito,ganador_parcial,turno,dicc_jugadores,ro
             if key == turno:
                 dicc_jugadores[key][0] += puntos 
             else:
-                dicc_jugadores[key][0] += puntos+50
+                dicc_jugadores[key][0] += puntos+(-10)*max_oportunidad*2
     
     else:
         
